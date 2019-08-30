@@ -22,12 +22,12 @@ class Company
     private $name;
 
     /**
-     * @ORM\Column(type="string", length=13)
+     * @ORM\Column(type="string", length=15)
      */
     private $code;
 
     /**
-     * @ORM\Column(type="string", length=15)
+     * @ORM\Column(type="string", length=16)
      */
     private $tax_code;
 
